@@ -1,0 +1,12 @@
+STEP 1: 
+SSH to pfsense with root permission.
+
+STEP 2: Download source and put it into /usr/local/www/
+cd /usr/local/www && curl -LO https://github.com/h6009/pfSense_Monitoring/archive/master.zip
+
+STEP 3: unzip
+unzip /usr/local/www/master.zip
+
+STEP 4: Result
+https://yourpfsense/pfSense_Monitoring-master/pfsense_json.php
+https://yourpfsense/pfSense_Monitoring-master/pfsense_ui.php
